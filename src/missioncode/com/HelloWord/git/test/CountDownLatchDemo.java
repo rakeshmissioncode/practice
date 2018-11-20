@@ -7,6 +7,7 @@ public class CountDownLatchDemo {
 	public static void main(String[] args) {
 		CountDownLatch countDownLatch= new CountDownLatch(2);
 		
+		System.out.println("hello");
 		
 		Thread count1= new Thread(new FileReciverServer1(countDownLatch));
 		Thread count2= new Thread(new FileReciverServer2(countDownLatch));
