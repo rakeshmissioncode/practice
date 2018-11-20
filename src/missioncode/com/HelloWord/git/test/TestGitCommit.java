@@ -1,9 +1,9 @@
 package missioncode.com.HelloWord.git.test;
 
-public class HelloWordGitTest {
+public class TestGitCommit {
 
 	public static void main(String[] args) {
-		System.out.println("Hellow Word!! ! ");
+		System.out.println("for test");
 
 	}
 

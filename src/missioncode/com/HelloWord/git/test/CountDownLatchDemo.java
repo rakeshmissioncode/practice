@@ -15,7 +15,7 @@ public class CountDownLatchDemo {
 		count1.start();
 		count2.start();
 		
-		System.out.println(" Receive File Form both Server !!! ---Start");
+		System.out.println(" Receive File Form  both Server !!! ---Start");
 		try {
 			countDownLatch.await();
 			
