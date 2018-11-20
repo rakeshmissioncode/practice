@@ -11,7 +11,7 @@ public class CyclicBarierDemo {
 			
 			@Override
 			public void run() {
-				System.out.println("All Biker arrive check Point.");
+				System.out.println(" All Biker arrive check Point.");
 				
 			}
 		});

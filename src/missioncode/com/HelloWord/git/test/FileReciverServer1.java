@@ -9,7 +9,7 @@ public class FileReciverServer1 implements Runnable {
 
 	public FileReciverServer1(CountDownLatch latch) {
 		super();
-		this.latch = latch;
+		this.latch =latch;
 	}
 
 

@@ -10,7 +10,7 @@ public class Biker  implements Runnable{
 	private CyclicBarrier checkpoint;
 
 	public Biker(CyclicBarrier checkPoint) {
-		this.checkpoint=checkPoint;
+		this.checkpoint=checkPoint ;
 	}
 
 	
