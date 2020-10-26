@@ -12,17 +12,26 @@ public class MinMaxStack{
     Stack<Integer> temp;
 
 
-    public MinMaxStack() {
+    public MinMaxStack( String typeOfStack) {
 
          this.main=new Stack<Integer>();
         this.temp=new Stack<Integer>();
+        this.stackType=typeOfStack;
     }
 
-    public void push(int input){
-       main.push(input);
-       if (temp.isEmpty()||main.peek()<temp.peek()){
-           temp.push(input);
-       }
+    public void push(int input) {
+        main.push(input);
+        if (stackType.equalsIgnoreCase("MIN")){
+        if (temp.isEmpty() || main.peek() < temp.peek()) {
+            temp.push(input);
+        }
+    }
+    else {
+            if (temp.isEmpty() || main.peek() > temp.peek()) {
+                temp.push(input);
+            }
+
+        }
 
     }
 
@@ -34,12 +43,12 @@ public class MinMaxStack{
                 temp.pop();
             }
             main.pop();
-        }
-        else {
-            System.out.println("no any element");
+        }else{
+                System.out.println("no any element");
+            }
         }
 
-    }
+
 
     public int getMin(){
         if(!temp.isEmpty())

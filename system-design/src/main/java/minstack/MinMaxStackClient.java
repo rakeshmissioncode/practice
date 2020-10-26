@@ -4,7 +4,7 @@ public class MinMaxStackClient {
 
     public static void main(String[] args) {
 
-        MinMaxStack minStack= new MinMaxStack();
+        MinMaxStack minStack= new MinMaxStack("MAN");
 
        // minStack.push(5);
         minStack.push(9);
