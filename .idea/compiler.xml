@@ -6,19 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hacker-rank-practice" />
-        <module name="system-design" />
         <module name="java-practice" />
-        <module name="data-structure" />
         <module name="leet-code-practice" />
+        <module name="hacker-rank-practice" />
+        <module name="utility-services" />
+        <module name="system-design" />
+        <module name="data-structure" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="data-structure" target="1.5" />
+    <bytecodeTargetLevel target="11">
+      <module name="data-structure" target="7" />
+      <module name="dream-project-workspace" target="1.5" />
       <module name="hacker-rank-practice" target="1.5" />
-      <module name="java-practice" target="1.5" />
-      <module name="leet-code-practice" target="1.5" />
+      <module name="java-practice" target="8" />
+      <module name="leet-code-practice" target="7" />
       <module name="system-design" target="7" />
+      <module name="utility-services" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
