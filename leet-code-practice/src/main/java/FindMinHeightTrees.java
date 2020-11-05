@@ -7,6 +7,8 @@ public class FindMinHeightTrees {
         if(n==1)
             return Arrays.asList(0);
 
+       int x=1*Math.pow(2,1);
+
         //create a map
         List<Integer>[] map;
         map = new List[n];
