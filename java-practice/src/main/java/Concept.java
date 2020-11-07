@@ -6,7 +6,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class Concept {
-
+//THis is java project
     public static void main(String[] args) {
 
         Map map=new ConcurrentHashMap();
